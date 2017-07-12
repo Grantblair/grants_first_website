@@ -1,0 +1,28 @@
+*{margin:0; padding:0;}
+
+h1{
+	color:green;
+}
+
+.paragraph{
+	font-size:15px;
+	color:purple;
+	text-decoration:underline;
+}
+.title{
+	margin:50px;
+}
+.background-image{
+	position:relative;
+	height:100%;
+	width:100%;
+	filter:brightness(50%);
+	filter:blur(10px);
+}
+
+.container{
+	z-index:-2;
+	position:fixed;
+	height:100%;
+	width:100%;
+}
